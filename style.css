@@ -1,0 +1,171 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: 0;
+}
+
+body {
+    display: flex;
+}
+
+main {
+    flex-grow: 1;
+}
+
+
+.first {
+    display: inline-flex;
+    padding: 12px 28px 708px 28px;
+    flex-direction: column;
+    align-items: center;
+    gap: 24px;
+    flex-shrink: 0;
+    background: #E7EEFF;
+}
+
+.firsticon {
+    max-width: 48px;
+    width: 100%;
+    justify-content: center;
+    display: flex;
+    border-bottom: 1px solid #002B81;
+}
+
+.icon {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 24px;
+    margin-top: 24px;
+}
+
+.second {
+    display: flex;
+    width: 100%;
+}
+
+.head {
+    background: #E7EEFF;
+    width: 100%;
+    justify-content: space-between;
+    display: flex;
+
+}
+
+.text {
+    display: flex;
+    justify-content: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    justify-content: space-between;
+    gap: 12px;
+}
+
+#place {
+    color: #000;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 28px; 
+    display: flex;
+    justify-content: center;
+}
+
+.line {
+    max-width: 200px;
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    gap: 8px;
+}
+
+#bigconteiner {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    max-width: 1440px;
+}
+
+#simmons {
+    color: #5E6577;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 24px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#images {
+    display: flex;
+    justify-content: center;
+}
+
+.lose {
+    justify-content: center;
+    max-width:1440px;
+}
+
+#content {
+    display: flex;
+    align-items: center;
+    justify-content: right;
+    gap: 30px;
+}
+
+.spain {
+    display: flex;
+    align-items: center;
+    display: flex;
+    padding: 8px 24px 8px 12px;
+    gap: 12px;
+    border-radius: 16px;
+    background: #E7EEFF;
+    max-width: 176px;
+    justify-content: center;
+    margin-top: 42px;
+}
+
+.game {
+    display: flex;
+    justify-content: center;
+    gap: 42px;
+    margin-top: 42px;
+
+}
+
+.control {
+    display: flex;
+    padding: 8px 12px;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 4px;
+    align-self: stretch;
+    border-radius: 0px 0px 24px 24px;
+    background: #E7EEFF;
+    max-width: 329px;
+}
+
+.modern {
+    color: #000;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px;
+    gap: 42px;
+}
+
+.lasanta {
+    color: #606060;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px;
+    gap: 42px;
+}
+
+.test { 
+    display: flex;
+    justify-content: center;
+}
